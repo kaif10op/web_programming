@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #ffffff;
+        color: #333;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+        z-index: 10;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #4f46e5;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 8rem 2rem 4rem;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        max-width: 800px;
+        font-size: 1.1rem;
+        line-height: 1.6;
+      }
+
+      .team-section {
+        background-color: #f9f9f9;
+        padding: 4rem 2rem;
+      }
+
+      .team-members {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .member {
+        background-color: #fff;
+        padding: 1.5rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        width: 260px;
+        text-align: center;
+      }
+
+      .member img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+
+      .member h4 {
+        margin: 0.5rem 0 0.2rem;
+      }
+
+      .member p {
+        font-size: 0.9rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+      <h2>About OptionChainX</h2>
+      <p>
+        At OptionChainX, we are passionate about simplifying the world of
+        options trading. Our platform provides real-time option chain data,
+        advanced analytics, and intuitive visualizations to help traders make
+        informed decisions. Whether you're a beginner or a professional trader,
+        OptionChainX is built to enhance your strategy with precision and speed.
+      </p>
+      <p>
+        Our mission is to empower individuals with the tools and knowledge to
+        succeed in the options market. We prioritize accuracy, transparency, and
+        user-friendly design to ensure a seamless trading experience. Join our
+        growing community and take control of your financial journey with
+        confidence.
+      </p>
+    </section>
+
+    <section class="team-section">
+      <h2>Meet Our Team</h2>
+      <div class="team-members">
+        <div class="member">
+          <img src="https://via.placeholder.com/100" alt="Team Member" />
+          <h4>Rohit Sharma</h4>
+          <p>Founder & CEO</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/100" alt="Team Member" />
+          <h4>Anjali Mehta</h4>
+          <p>Lead Developer</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/100" alt="Team Member" />
+          <h4>Vikram Patel</h4>
+          <p>Data Analyst</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/100" alt="Team Member" />
+          <h4>Sneha Verma</h4>
+          <p>Marketing Manager</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
